@@ -416,15 +416,16 @@ class _FxAppBarState extends State<FxAppBar> {
 
     if (showSearchBar) {
       searchBar = TextField(
+        autofocus: true,
         cursorColor: widget.searchBarColorTheme,
         style: widget.searchTextStyle,
         decoration: InputDecoration(
           border: InputBorder.none,
-          prefixIcon: Icon(
-            Icons.search,
-            color: widget.searchBarColorTheme,
-            size: 18,
-          ),
+          // prefixIcon: Icon(
+          //   Icons.search,
+          //   color: widget.searchBarColorTheme,
+          //   size: 18,
+          // ),
           suffixIcon: IconButton(
             icon: Icon(
               Icons.close,
