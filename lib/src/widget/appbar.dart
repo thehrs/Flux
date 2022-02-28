@@ -430,7 +430,7 @@ class _FxAppBarState extends State<FxAppBar> {
             icon: Icon(
               Icons.close,
               color: widget.searchBarColorTheme,
-              size: 20,
+              size: 28,
             ),
             onPressed: () {
               setState(() {
@@ -456,7 +456,7 @@ class _FxAppBarState extends State<FxAppBar> {
           icon: Icon(
             Icons.search,
             color: widget.searchBarColorTheme,
-            size: 20,
+            size: 28,
           ),
           onPressed: () {
             setState(() {
